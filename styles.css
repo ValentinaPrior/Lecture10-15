@@ -11,18 +11,20 @@ div{
     top:100px;
 }
 #box2{
-    position: relative;
-    top:100px;  shifts the position down;
+    position: relative origin position, relative to its origin;
     background-color:green;
     left:50px;  creates overlay;
+    position:sticky; will stick to where it is on screen and not get lost;
+    top:0px;
 }
 #box3{
     background-color:blue;
-    position:absolute;
+    position:sticky;
     color:white;
     top:100px;
     right:0px;  shifted it to extreme right;
     left:30px;
+    bottom:0px;
 }
 body{
     text-align:center shifts every body element to center;
@@ -32,5 +34,8 @@ body{
     bottom: 0px;
     width: 100vw;
     left:0px;
+
+}
+#box5{
 
 }
