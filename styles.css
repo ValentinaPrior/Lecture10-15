@@ -9,6 +9,8 @@ div{
    
     position: static; cant move box now, position is stuck regardless of new commands;
     top:100px;
+    background-image: url(image.png);
+    background-size:cover;
 }
 #box2{
     position: relative origin position, relative to its origin;
@@ -25,6 +27,7 @@ div{
     right:0px;  shifted it to extreme right;
     left:30px;
     bottom:0px;
+    z-index:-1; sends box to behind text
 }
 body{
     text-align:center shifts every body element to center;
@@ -34,6 +37,7 @@ body{
     bottom: 0px;
     width: 100vw;
     left:0px;
+    z-index:-1
 
 }
 #box5{
